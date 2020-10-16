@@ -55,7 +55,7 @@ module Textris
     def render_content
       set_instance_variables_for_rendering
 
-      render(:template => template_name, :formats => ['text'], :locale => @locale)
+      render(:template => template_name, :formats => ['html', 'text'], :locale => @locale)
     end
 
     protected
