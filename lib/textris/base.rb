@@ -1,5 +1,3 @@
-require 'render_anywhere'
-
 module Textris
   class Base
     class RenderingController < RenderAnywhere::RenderingController
